@@ -1,3 +1,5 @@
+# This package has moved to [@taylorgrinn/logo](https://github.com/taylorgrinn/logo)
+
 # Tygr Logo
 
 [Demo](https://tylergrinn.github.io/tygr-logo)

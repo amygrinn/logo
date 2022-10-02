@@ -57,12 +57,6 @@ const main = merge(common, {
 
     // Browser config. Does not require its own webpack config object,
     // just copy the required files into the dist directory
-    new HtmlWebpackPlugin({
-      template: 'demo/template.html',
-      filename: 'browser.html',
-      title: `${COMMON_NAME} Browser Demo`,
-      inject: false,
-    }),
     new CopyPlugin({
       patterns: [
         { from: path.resolve(__dirname, 'template.html'), to: 'browser.html' },
