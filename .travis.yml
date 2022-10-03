@@ -13,14 +13,12 @@ deploy:
       branch: main
       tags: true
       repo: taylorgrinn/logo
-    edge: true
     email: grinntaylor@gmail.com
-    api_token: $NPM_TOKEN
+    api_key: $NPM_TOKEN
 
   - provider: pages
     on:
       branch: main
       repo: taylorgrinn/logo
-    edge: true
     github_token: $GITHUB_TOKEN
     local_dir: dist
