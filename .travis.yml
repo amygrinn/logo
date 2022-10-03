@@ -14,8 +14,8 @@ deploy:
       tags: true
       repo: taylorgrinn/logo
     email: grinntaylor@gmail.com
-    api_key: $NPM_TOKEN
-
+    api_key:
+      secure: "MqlrEFiepWari30dGugVsHUji3peptH4EacnC2hfLoFIikrEXMTrLL59XSr4FQvBgYC73K3cZXWGJq+XLMB8C+QH/KcLiuMV1jk5mP9QnFdmnLzZfa9Ob/5yJok5ham2Sv1CO4UsUVzf+OXBY2+g6CXIvpOFheK7k1B/1Q5+5p9CJ+V+5CI/vigY5Ik0WmeYu4eUHZyo1FCDxePHcDTndwnZzjvnSK5z9lMRDkVEmfX7bv0HtHZfTubaoW3NWOzamMCb1BXbisP204zoDcKX+deub3MD9+NRzP9rQGUwUfzSlmAIGTp2mDq33/+GkpOwvP59wSnQNjgOfWFfUaAu5ZwKKJKU5bkyzq4KZLTYQqudDefThRAx9bX04v+88Ix0V2HTOF/kTeGvnE4oZMwwrz55XEzp65DYi3SWXlGXehe9FCdTi2PqQJafdYvwno7dR55UHAmHmsDjv+lu2Oe4KR3zLI7D9E4I9TQBs2jVpdydyrM/hCgRcWs0dN2tCVKnDLUsnvWCQWjjSR+GoS2m7oM+rsR9UK5kpPjcugLVmWArqgKJyYVxeVGJsuAVveyA+NUd6TQEvZqPUvZVTmJsVkWteY3zHxbL0Jb/gbZNgcugoDrjc53eM9DT5ZEEyqJeApZT89VsEPZO4NKqhXqq9RfxUqp69i5Whid0TYbYA/s="
   - provider: pages
     on:
       branch: main
