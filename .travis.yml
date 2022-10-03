@@ -12,15 +12,15 @@ deploy:
     on:
       branch: main
       tags: true
-      repo: tylergrinn/tygr-logo
+      repo: taylorgrinn/logo
     edge: true
-    email: tylergrinn@gmail.com
+    email: grinntaylor@gmail.com
     api_token: $NPM_TOKEN
 
   - provider: pages
     on:
       branch: main
-      repo: tylergrinn/tygr-logo
+      repo: taylorgrinn/logo
     edge: true
     github_token: $GITHUB_TOKEN
     local_dir: dist
