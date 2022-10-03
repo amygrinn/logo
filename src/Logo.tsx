@@ -13,7 +13,7 @@ export default function Logo(props: LogoProps) {
       height={height}
       viewBox="0 -20 540 540"
       preserveAspectRatio="xMidYMid"
-      className="tygr-logo"
+      className="tay-logo"
     >
       <path
         className="cls-1"

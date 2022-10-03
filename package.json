@@ -1,7 +1,7 @@
 {
-  "name": "@tygr/logo",
-  "version": "3.0.3",
-  "description": "Logo for tygr",
+  "name": "@taylorgrinn/logo",
+  "version": "4.0.0",
+  "description": "Logo for Taylor",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -55,7 +55,7 @@
     "clean": "rimraf lib dist",
     "ts": "tsc",
     "ts:w": "npm run ts -- -w",
-    "sass": "sass -I node_modules --style=compressed --no-source-map sass/index.scss lib/tygr-logo.min.css",
+    "sass": "sass -I node_modules --style=compressed --no-source-map sass/index.scss lib/tay-logo.min.css",
     "sass:w": "npm run sass -- --watch",
     "webpack": "webpack",
     "webpack:w": "npm run webpack -- -w",
@@ -86,7 +86,7 @@
     "login",
     "webpack"
   ],
-  "author": "Tyler Grinn",
+  "author": "Taylor Grinn",
   "license": "ISC",
   "peerDependencies": {
     "react": "18"

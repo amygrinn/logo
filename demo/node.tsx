@@ -1,6 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import Logo from '../lib';
-import '../lib/tygr-logo.min.css';
+import '../lib/tay-logo.min.css';
 
-ReactDOM.render(<Logo header="LOGO!" />, document.getElementById('app'));
+const root = createRoot(document.getElementById('app'));
+root.render(<Logo header="LOGO!" />);
+

@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import Logo from './Logo';
 
 export default {
-  mount: (el: Element | DocumentFragment | null) => {
-    ReactDOM.render(React.createElement(Logo), el);
+  mount: (el: Element | DocumentFragment) => {
+    const root = createRoot(el);
+    root.render(React.createElement(Logo));
   },
 };

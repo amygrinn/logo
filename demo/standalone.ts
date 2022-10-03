@@ -1,4 +1,4 @@
 import Logo from '../lib/standalone';
-import '../lib/tygr-logo.min.css';
+import '../lib/tay-logo.min.css';
 
 Logo.mount(document.getElementById('app'));

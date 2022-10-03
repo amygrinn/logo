@@ -1,7 +1,7 @@
 const path = require('path');
 
-const PACKAGE_NAME = 'tygr-logo';
-const LIBRARY_NAME = 'TygrLogo';
+const PACKAGE_NAME = 'tay-logo';
+const LIBRARY_NAME = 'TayLogo';
 
 module.exports = {
   entry: {
