@@ -1,10 +1,6 @@
-# This package has moved to [@taylorgrinn/logo](https://github.com/taylorgrinn/logo)
+# Tay Logo
 
-# Tygr Logo
-
-[Demo](https://tylergrinn.github.io/tygr-logo)
-
-[Forking Guide](https://github.com/tylergrinn/tygr-logo/blob/main/docs/forking.md)
+[Demo](https://taylorgrinn.github.io/logo)
 
 This is a react component packaged for three environments: node,
 browser, and standalone.
