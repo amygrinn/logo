@@ -5,4 +5,3 @@ import '../lib/tay-logo.min.css';
 
 const root = createRoot(document.getElementById('app'));
 root.render(<Logo header="LOGO!" />);
-
