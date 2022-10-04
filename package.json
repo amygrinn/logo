@@ -1,6 +1,6 @@
 {
   "name": "@taylorgrinn/logo",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Logo for Taylor",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
